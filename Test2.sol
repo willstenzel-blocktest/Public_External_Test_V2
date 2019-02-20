@@ -6,7 +6,7 @@ contract Test {
     uint[20] a;
     Public_external public_external;
     
-    Test() {
+    constructor() {
         public_external = new Public_external();
     }
     
