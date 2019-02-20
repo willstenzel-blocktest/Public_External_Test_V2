@@ -2,7 +2,7 @@ pragma solidity ^0.4.25;
 
 import "./Public_external.sol";
 
-contract Test {
+contract Test2 {
     uint[20] a;
     Public_external public_external;
     
