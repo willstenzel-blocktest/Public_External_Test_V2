@@ -5,7 +5,7 @@ import "./Public_external.sol";
 contract Test {
     uint[20] a;
     
-    constructor() public {
+    Test() {
         Public_external public_external = new Public_external();
     }
     
